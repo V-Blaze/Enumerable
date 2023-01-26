@@ -30,35 +30,13 @@
 
 > This project is about how to use a module inside your class.
 
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-<!-- > Describe the tech stack and include only the relevant sections that apply to your project. -->
-
-<!-- <details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details> -->
-
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 <!-- > Describe between 1-3 key features of the application. -->
 
-- Search city using searchbar
-- Show temperature, sunrise and sunset for each city
-- Show full detail of the weather
+- Custom Enumerable all? method
+- Custom Enumerable filter? method
+- Custom Enumerable any? method
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +75,7 @@ Install this project with:
 
 ```
   cd Enumerable
-  npm install
+  bundle install
 ```
 
 
@@ -106,7 +84,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```
-npm start
+ruby my_list.rb
 ```
 
 ### Run tests
@@ -114,7 +92,7 @@ npm start
 To run tests, run the following command:
 
 ```
-npm test
+ ruby -I test
 ```
 
 ### Deployment
@@ -122,7 +100,7 @@ npm test
 You can deploy this project using:
 
 ```
-npm run deploy
+
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -154,8 +132,8 @@ npm run deploy
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
 
-- Add Air Polution page
-- Add Contact Page
+- Add the each with index Enumerator method
+- Add the cycle Enumerator method
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,22 +162,6 @@ If you like this project, Please give it a ⭐️
 Thanks [@microverse](https://www.microverse.org/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-<!-- ## ❓ FAQ <a name="faq"></a>-->
-
-<!-- > Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2] -->
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
